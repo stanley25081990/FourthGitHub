@@ -25,7 +25,7 @@ public class FirstTest {
 		input.sendKeys(Keys.ENTER);
 		File src = ((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(src, new File("C:\\SeleniumWorkSpace\\GitHubTest\\screenshot\\image1.jpg"));
-		int i = 1/0;
+		
 		
 	}
 	
